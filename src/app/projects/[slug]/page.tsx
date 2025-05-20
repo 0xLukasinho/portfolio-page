@@ -124,7 +124,7 @@ export function generateStaticParams() {
 }
 
 export default async function ProjectPage({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+  const { slug } = await Promise.resolve(params);
   const project = projectDetails[slug];
   
   // If project doesn't exist, show 404
