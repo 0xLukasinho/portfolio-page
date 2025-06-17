@@ -13,7 +13,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="text-3xl md:text-5xl font-bold tracking-tight mb-6 leading-tight"
           >
-            I am Lukas — Transforming complex <span className="text-blue-500 dark:text-blue-400">Web3 challenges</span> into <span className="text-blue-500 dark:text-blue-400">strategic opportunities</span>.
+            I am Lukas — Transforming complex <span className="text-blue-500 dark:text-blue-400">AI & Web3 challenges</span> into <span className="text-blue-500 dark:text-blue-400">strategic opportunities</span>.
           </motion.h1>
           
           <motion.p 
