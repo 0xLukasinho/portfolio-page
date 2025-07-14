@@ -308,6 +308,16 @@ export default async function ProjectPage({ params }: { params: { slug: string }
                     <ul className="list-disc pl-6 space-y-2 mb-6">
                       <li className="mb-2">
                         <a
+                          href="https://globalcoinresearch.com/research/bittensor-deep-dive-is-tao-crypto-s-most-promising-ai-project"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:underline"
+                        >
+                          <strong>Bittensor Deep Dive: Is TAO Crypto's Most Promising AI Project?</strong>
+                        </a> - Comprehensive analysis of Bittensor's decentralized AI protocol and its potential impact on the intersection of AI and blockchain
+                      </li>
+                      <li className="mb-2">
+                        <a
                           href="https://globalcoinresearch.com/research/why-ai-agents-matter-and-will-revolutionize-crypto"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -347,6 +357,15 @@ export default async function ProjectPage({ params }: { params: { slug: string }
                     <h2 className="text-2xl font-semibold mb-4">Automating High-Value Web3 Workflows</h2>
                     <p>My work in AI agent development focuses on creating autonomous systems that dramatically reduce manual work in specialized domains. I've built several production agents that deliver significant time and resource savings:</p>
                     
+                    <h3 className="text-xl font-semibold mt-6 mb-2">Content Repurposing Agent <a href="https://github.com/0xLukasinho/ContentAgent" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-base font-normal">(View on GitHub)</a></h3>
+                    <p>Built an intelligent agent that transforms research reports into optimized social media content. This agent:</p>
+                    <ul className="list-disc pl-6 space-y-2 mb-6">
+                      <li className="mb-2">Transforms research reports into optimized social media content</li>
+                      <li className="mb-2">Automatically schedules posts for maximum engagement</li>
+                      <li className="mb-2">Tailors content format to platform-specific requirements</li>
+                      <li className="mb-2">Measures performance and adapts posting strategies</li>
+                    </ul>
+                    
                     <h3 className="text-xl font-semibold mt-6 mb-2">CryptoResearch Agent <a href="https://github.com/0xLukasinho/CryptoResearchAgent/tree/main" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-base font-normal">(View on GitHub)</a></h3>
                     <p>Built a comprehensive multi-agent AI system that automates cryptocurrency research, content analysis, and article generation. This agent:</p>
                     <ul className="list-disc pl-6 space-y-2 mb-6">
@@ -363,15 +382,6 @@ export default async function ProjectPage({ params }: { params: { slug: string }
                       <li className="mb-2">Extracts key event details (date, location, organizers, etc.)</li>
                       <li className="mb-2">Populates and maintains the company event calendar without human intervention</li>
                       <li className="mb-2">Ensures comprehensive coverage of industry events with minimal oversight</li>
-                    </ul>
-                    
-                    <h3 className="text-xl font-semibold mt-6 mb-2">Content Repurposing Agent</h3>
-                    <p>Currently developing an agent that:</p>
-                    <ul className="list-disc pl-6 space-y-2 mb-6">
-                      <li className="mb-2">Transforms research reports into optimized social media content</li>
-                      <li className="mb-2">Automatically schedules posts for maximum engagement</li>
-                      <li className="mb-2">Tailors content format to platform-specific requirements</li>
-                      <li className="mb-2">Measures performance and adapts posting strategies</li>
                     </ul>
                     
                     <p>Each agent integrates specialized AI capabilities including semantic search, content relevance evaluation, natural language generation, and autonomous decision-making to eliminate repetitive knowledge work.</p>
