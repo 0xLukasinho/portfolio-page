@@ -357,6 +357,15 @@ export default async function ProjectPage({ params }: { params: { slug: string }
                     <h2 className="text-2xl font-semibold mb-4">Automating High-Value Web3 Workflows</h2>
                     <p>My work in AI agent development focuses on creating autonomous systems that dramatically reduce manual work in specialized domains. I've built several production agents that deliver significant time and resource savings:</p>
                     
+                    <h3 className="text-xl font-semibold mt-6 mb-2">Crypto Research & Writing Agent <a href="https://github.com/0xLukasinho/CryptoResearchAgent/tree/main" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-base font-normal">(View on GitHub)</a></h3>
+                    <p>Built a comprehensive multi-agent AI system that automates cryptocurrency research, content analysis, and article generation. This agent:</p>
+                    <ul className="list-disc pl-6 space-y-2 mb-6">
+                      <li className="mb-2">Performs autonomous information discovery across Substacks, YouTube, and user-provided materials</li>
+                      <li className="mb-2">Conducts deep content analysis with relevance evaluation</li>
+                      <li className="mb-2">Generates research outlines and full articles matching personalized writing style</li>
+                      <li className="mb-2">Reduces research report creation time from 20 hours to 4 hours (80% reduction)</li>
+                    </ul>
+                    
                     <h3 className="text-xl font-semibold mt-6 mb-2">Content Repurposing Agent <a href="https://github.com/0xLukasinho/ContentAgent" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-base font-normal">(View on GitHub)</a></h3>
                     <p>Built an intelligent agent that transforms research reports into optimized social media content. This agent:</p>
                     <ul className="list-disc pl-6 space-y-2 mb-6">
@@ -364,15 +373,6 @@ export default async function ProjectPage({ params }: { params: { slug: string }
                       <li className="mb-2">Automatically schedules posts for maximum engagement</li>
                       <li className="mb-2">Tailors content format to platform-specific requirements</li>
                       <li className="mb-2">Measures performance and adapts posting strategies</li>
-                    </ul>
-                    
-                    <h3 className="text-xl font-semibold mt-6 mb-2">CryptoResearch Agent <a href="https://github.com/0xLukasinho/CryptoResearchAgent/tree/main" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-base font-normal">(View on GitHub)</a></h3>
-                    <p>Built a comprehensive multi-agent AI system that automates cryptocurrency research, content analysis, and article generation. This agent:</p>
-                    <ul className="list-disc pl-6 space-y-2 mb-6">
-                      <li className="mb-2">Performs autonomous information discovery across Substacks, YouTube, and user-provided materials</li>
-                      <li className="mb-2">Conducts deep content analysis with relevance evaluation</li>
-                      <li className="mb-2">Generates research outlines and full articles matching personalized writing style</li>
-                      <li className="mb-2">Reduces research report creation time from 20 hours to 4 hours (80% reduction)</li>
                     </ul>
                     
                     <h3 className="text-xl font-semibold mt-6 mb-2">Web3 Events Calendar Agent</h3>
